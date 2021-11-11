@@ -65,6 +65,6 @@ export class AuthProvider {
 
     const groups = session.getAccessToken().decodePayload()["cognito:groups"];
 
-    return groups ? Promise.resolve(groups) : Promise.resolve([]);
+    return groups ? Promise.resolve(groups) : Promise.resolve("guest");
   };
 }
