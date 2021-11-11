@@ -14,7 +14,7 @@
     "lint": "eslint .",
     "test": "jest --coverage"
   },
-  "author": "Grégoire Hertault",
+  "author": "Christopher Tulabut",
   "license": "MIT",
   "files": [
     "build"
